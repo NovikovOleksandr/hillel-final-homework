@@ -180,7 +180,13 @@ $bold: 700;
   justify-content: space-between;
   padding-top: 50px;
   width: 100%;
+  .header-left-side {
+    position: relative;
+    z-index: 1;
+  }
   .header-right-side {
+    position: relative;
+    z-index: 1;
     .top-box {
       display: flex;
       gap: 6px;
@@ -240,7 +246,5 @@ $bold: 700;
         }
       }
     }
-
-
   }
 }

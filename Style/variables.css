@@ -130,6 +130,14 @@
   padding-top: 50px;
   width: 100%;
 }
+.header .header-left-side {
+  position: relative;
+  z-index: 1;
+}
+.header .header-right-side {
+  position: relative;
+  z-index: 1;
+}
 .header .header-right-side .top-box {
   display: flex;
   gap: 6px;
